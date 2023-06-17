@@ -52,17 +52,16 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", telefono='" + telefono + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+        return "Persona: " +
+                "ID = " + id +
+                ", Nombre = '" + nombre + '\'' +
+                ", Telefono = '" + telefono + '\'' +
+                ", Email = '" + email + '\'' ;
     }
 
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
         Persona persona1 = new Persona("Juan Pérez", "123456789", "juan@mail.com");
         System.out.println(persona1);
-    }
+    }*/
 
 }
